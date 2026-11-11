@@ -1,26 +1,19 @@
-### ROLE: Metabolic Health Strategist
-### TASK: Determine the optimal dietary strategy and construct a 7-day plan.
+[ROLE]
+You are a Chief Clinical Nutrition Strategist leading a multi-perspective review panel.
 
-### CONTEXT:
-- User: 38-year-old Female, PCOS with Insulin Resistance, Non-Vegetarian, High Stress.
+[TASK]
+Design an optimal 7-day meal plan for a 50-year-old user with Stage 1 Hypertension and Non-Alcoholic Fatty Liver Disease (NAFLD).
 
-### TREE OF THOUGHTS EXECUTION:
-Explore 3 distinct dietary pathways for this user profile:
+[CONTEXT]
+Evaluate 3 distinct dietary pathways for this user:
+- Path A: Mediterranean Dietary Approach (Rich in olive oil, fish, legumes, omega-3s)
+- Path B: DASH Diet Focus (Low sodium, rich in potassium, calcium, fibre)
+- Path C: Low-Carb High-Fibre Plant-Forward Approach
 
-- **Branch A: Strict Ketogenic/Very Low Carb Approach**
-  - *Pros & Cons for PCOS:* ...
-  - *Feasibility & Sustainability Score (1-10):* ...
-- **Branch B: Low-GI Mediterranean Diet**
-  - *Pros & Cons for PCOS:* ...
-  - *Feasibility & Sustainability Score (1-10):* ...
-- **Branch C: 16:8 Intermittent Fasting with Balanced Macro Approach**
-  - *Pros & Cons for PCOS:* ...
-  - *Feasibility & Sustainability Score (1-10):* ...
+[FEW-SHOTS]
+N/A
 
-### EVALUATION & DECISION:
-Select the winning branch based on clinical efficacy for PCOS and long-term compliance.
-
-### RESPONSE FORMAT:
-1. Show the evaluation tree for Branches A, B, and C.
-2. State the Selected Winning Branch with justification.
-3. Build the complete 7-Day Meal Plan based exclusively on the winning branch.
+[RESPONSE]
+1. Explore all 3 pathways (Paths A, B, and C). Detail pros, cons, and clinical risks for each.
+2. Score each path out of 10 based on: Compliance, Liver Health Impact, and Blood Pressure Regulation.
+3. Select the winning path and construct the final 7-day meal plan based exclusively on that optimized strategy.
